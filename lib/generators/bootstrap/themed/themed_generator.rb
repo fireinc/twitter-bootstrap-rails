@@ -138,7 +138,7 @@ module Bootstrap
       end
 
       def form_builder
-        defined?(::SimpleForm) ? 'simple_form/' : ''
+        ''#defined?(::SimpleForm) ? 'simple_form/' : ''
       end
     end
   end
